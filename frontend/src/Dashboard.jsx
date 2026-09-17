@@ -68,10 +68,31 @@ function DashboardContent() {
       {/* Crisp Header with Flat Design Tokens and Tight Tracking */}
       <header className="border-b border-slate-200/80 bg-white sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-4 h-16 flex items-center justify-between">
-          <div className="flex items-center space-x-3">
-            <span className="h-7 w-7 bg-slate-900 rounded-md flex items-center justify-center text-white font-bold text-xs tracking-tight">
-              P
-            </span>
+          <div className="flex items-center space-x-2.5">
+            {/* Minimalist Geometric Dual-Chevron Corridor Logo */}
+            <svg 
+              className="h-6 w-6 flex-shrink-0" 
+              viewBox="0 0 24 24" 
+              fill="none" 
+              xmlns="http://www.w3.org/2000/svg"
+              aria-label="PollarBridge Logo"
+            >
+              {/* West Africa to Latin America Vector (Corporate Indigo) */}
+              <path 
+                d="M7 6l6 6-6 6" 
+                className="stroke-indigo-600 stroke-[2px]" 
+                strokeLinecap="round" 
+                strokeLinejoin="round" 
+              />
+              {/* Latin America to West Africa Counter Vector (Solid Slate) */}
+              <path 
+                d="M17 18l-6-6 6-6" 
+                className="stroke-slate-700 stroke-[2px]" 
+                strokeLinecap="round" 
+                strokeLinejoin="round" 
+              />
+            </svg>
+
             <div className="flex items-center space-x-2">
               <span className="font-semibold text-base tracking-tight text-slate-900">PollarBridge</span>
               <span className="text-xs text-indigo-700 font-mono px-2 py-0.5 bg-indigo-50/80 rounded border border-indigo-200/60 font-medium tracking-tight">
